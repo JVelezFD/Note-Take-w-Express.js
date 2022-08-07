@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "JVelez",
   "license": "ISC",
   "dependencies": {
+    "generate-unique-id": "^2.0.1",
     "express": "^4.16.4"
   }
 }
