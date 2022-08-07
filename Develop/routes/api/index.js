@@ -3,7 +3,8 @@ const fs = require('fs');
 const router = require('express').router();
 const util = require('util');
 const path = require('path');
-
+const res = require("express/lib/response");
+const { append } = require("express/lib/response");
 //retrive notes on the DB and return the note for the client
 
 function retriveNote(req, res){
