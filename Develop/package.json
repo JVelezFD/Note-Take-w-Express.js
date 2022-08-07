@@ -4,12 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JVelez",
   "license": "ISC",
   "dependencies": {
-    "generate-unique-id": "^2.0.1",
-    "express": "^4.16.4"
+    "uuid": "^2.0.1",
+    "express": "^4.16.4",
+    "nodemon": "^2.0.16"
   }
 }
