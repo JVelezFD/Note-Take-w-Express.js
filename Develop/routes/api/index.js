@@ -82,7 +82,13 @@ function deleteNote (req, res){
     res.JSON({});
 }
 
+//post, delete, get routes for router
 
+router.post('/notes',  writeNote);
 
+router.get('/notes', existingNote);
 
+router.delete('/notes', deleteNote);
+
+module.exports = router;
 
