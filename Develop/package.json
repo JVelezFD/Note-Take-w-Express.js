@@ -10,8 +10,9 @@
   "author": "JVelez",
   "license": "ISC",
   "dependencies": {
-    "uuid": "^2.0.1",
     "express": "^4.16.4",
-    "nodemon": "^2.0.16"
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "uuidv4": "^6.2.13"
   }
 }
